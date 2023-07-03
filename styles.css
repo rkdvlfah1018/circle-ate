@@ -1,0 +1,60 @@
+canvas{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+.toProjects{
+    z-index: 10;
+    position:absolute;
+    top: 25px;
+    left: 25px;
+    color: white;
+    font-size: 25px;
+    opacity: 0.33;
+}
+
+.toProjects:hover{
+    opacity: 1;
+}
+
+.prev{
+    color: white;
+    font-size: 40px;
+    z-index: 10;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    opacity: 0.33;
+}
+
+.next{
+    color: white;
+    font-size: 40px;
+    z-index: 10;
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    opacity: 0.33;
+}
+
+.prev:hover{
+    opacity: 1;
+}
+
+.next:hover{
+    opacity: 1;
+}
